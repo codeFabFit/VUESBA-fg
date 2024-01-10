@@ -16,11 +16,19 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laudantium, assumenda temporibus natus ullam cumque officia iusto reprehenderit tempore id officiis ex inventore, nulla voluptate eaque aperiam aspernatur alias tempora.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis laborum non recusandae, dolores possimus ipsam ea, esse explicabo asperiores omnis sit vel. Ab voluptatum ipsum quasi. Vero nulla accusamus et?</p>
   
+    <img src="https://placehold.co/950x200" class="employees">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos temporibus aliquam quas expedita pariatur, blanditiis dolorem ad ut nostrum dignissimos obcaecati, modi reiciendis enim, odio ex dolore possimus iusto commodi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem illum culpa deleniti itaque deserunt minima quis vel, facere quisquam eligendi praesentium alias corporis explicabo quibusdam impedit? Debitis, ipsa dolorum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in, magni dolor, voluptatum, facilis vitae corporis iste porro repudiandae quibusdam perspiciatis autem ad optio officia mollitia veritatis nesciunt. Excepturi, recusandae.</p>
     
   </div>
 </template>
 
 <style>
+.about {
+  margin: 10px;
+  padding: 20px;
+}
 .company {
   padding: 10px;
   margin: 10px;

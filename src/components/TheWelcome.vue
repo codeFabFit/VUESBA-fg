@@ -8,6 +8,7 @@ import WelcomeItem from './WelcomeItem.vue'
 </script>
 
 <template>
+  <div class="center-piece">
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
@@ -16,7 +17,7 @@ import WelcomeItem from './WelcomeItem.vue'
         <h6>Think your best and become the greatest</h6>
    
   </WelcomeItem>
-
+</div>
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
@@ -32,6 +33,7 @@ import WelcomeItem from './WelcomeItem.vue'
   
     <template #heading>Frontal Lobe</template>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos cum dolores voluptatum cupiditate, suscipit, iure expedita accusantium itaque et similique debitis est a ullam quos. Aperiam quisquam cumque est veniam.</p>
+    <img>
     <button>Learn More</button>
   
   </WelcomeItem>
@@ -42,6 +44,8 @@ import WelcomeItem from './WelcomeItem.vue'
     </template>
     <template #heading>Cerebellum</template>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quos deleniti a tenetur voluptas velit molestias inventore dolores unde quasi similique nulla, debitis veniam! Qui voluptatem distinctio error tempore doloribus?</p>
+    <img>
+    
     <button>Learn More</button>
     
   </WelcomeItem>
@@ -53,6 +57,8 @@ import WelcomeItem from './WelcomeItem.vue'
     </template>
     <template #heading>Occupitial Lobe</template>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deserunt nam laboriosam, error voluptatem magnam accusamus sit illum inventore, quas nostrum dolorum doloremque et aut cum hic expedita fugit. Quod.</p>
+    <img>
+      
       <button>Learn More</button>
 
   </WelcomeItem>
@@ -65,8 +71,18 @@ import WelcomeItem from './WelcomeItem.vue'
     </template>
     <template #heading>More</template>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laborum, adipisci maxime ratione minima sequi. Et, voluptatem animi voluptates harum obcaecati aliquid, culpa nobis voluptatibus corrupti, molestiae quam accusamus iste.</p>
+    <img>
+      
+      
       <button>Learn More</button>
     
   </WelcomeItem>
 
 </template>
+
+<style>
+.center-piece{
+  animation: alternate;
+}
+
+</style>
