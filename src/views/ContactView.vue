@@ -1,7 +1,9 @@
+<!-- this is a custom component that i made -->
+
 <template>
     <div class="contact">
       <h1>How to get in touch</h1>
-     
+     <!-- create a bootstrap fm here -->
       <form>
         First Name
         <input class="name"> 
