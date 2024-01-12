@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="https://media.giphy.com/media/l41lJ8ywG1ncm9FXW/giphy.gif" width="225" height="175" />
+    <img alt="Brain logo" class="logo" src="https://media.giphy.com/media/l41lJ8ywG1ncm9FXW/giphy.gif" width="225" height="175" />
 
     <div class="wrapper">
       <HelloWorld msg="Brain Wonders 🧠" />
